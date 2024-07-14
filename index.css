@@ -1,0 +1,297 @@
+body {
+  z-index: 1;
+  position: relative;
+  font-family: "Inter", sans-serif;
+  margin: 0px;
+  background-color: #303d2b;
+}
+.bg-plant-main {
+  z-index: 0;
+  position: absolute;
+  top: 100px;
+  left: -500px;
+  height: 3000px;
+}
+header {
+  background-image: linear-gradient(rgb(11, 52, 14), #2e3f27);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-shadow: 0 0 3px #3f3f3f, 0 0 5px #000000;
+  color: #c2c2c2;
+}
+
+header .name-and-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 10%;
+  height: 90px;
+}
+header .name-and-logo h1 {
+  margin: 0px;
+  font-size: 28px;
+}
+
+header .name-and-logo .logo {
+  width: 60px;
+}
+header section {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+
+header section .nav-i {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+header section .nav-i a {
+  text-decoration: none;
+  text-shadow: 0 0 3px #3f3f3f, 0 0 5px #000000;
+  color: #c2c2c2;
+  font-size: 25px;
+}
+header section .nav-ii {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+}
+/*  */
+/* main disine */
+/*  */
+main .text-and-card {
+  display: flex;
+  height: 600px;
+}
+main .text-and-card .text {
+  margin-top: 100px;
+  margin-left: 100px;
+  height: 500px;
+  width: 50%;
+}
+main .text-and-card .text .maintxt {
+  font-size: 70px;
+  text-shadow: 0 0 3px #3f3f3f, 0 0 5px #000000;
+  color: #c2c2c2;
+}
+main .text-and-card .text p {
+  font-size: 20px;
+  text-shadow: 0 0 3px #3f3f3f, 0 0 5px #000000;
+  color: #c2c2c2;
+  width: 60%;
+}
+main .text-and-card .text div {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin-top: 40px;
+}
+main .text-and-card .text div .btn-i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 0 0 3px #3f3f3f, 0 0 5px #000000;
+  color: #c2c2c2;
+  font-size: 25px;
+  height: 50px;
+  background-color: #d4d4d448;
+  border: 2px solid white;
+  border-radius: 5px;
+  width: 35%;
+}
+main .text-and-card .text div .btn-ii {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 0 0 3px #3f3f3f, 0 0 5px #000000;
+  color: #c2c2c2;
+  font-size: 18px;
+  height: 50px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 5px;
+  width: 40%;
+}
+main .text-and-card .text div .btn-ii span {
+  padding-right: 8px;
+}
+main .cards {
+  position: relative;
+  height: 800px;
+  margin-top: 200px;
+  width: 40%;
+}
+main .cards .card {
+  position: absolute;
+  right: 0px;
+  height: 500px;
+  width: 60%;
+  background-color: rgba(63, 63, 63, 0.316);
+  backdrop-filter: blur(3px);
+  border: 3px solid #696868;
+  border-radius: 20px;
+}
+main .cards .card .main-img {
+  width: 500px;
+  position: absolute;
+  top: -150px;
+}
+main .cards .card article {
+  margin-top: 200px;
+  width: 90%;
+  padding: 20px;
+}
+
+main .cards .card article p {
+  margin: 0px;
+  text-shadow: 0 0 3px #3f3f3f, 0 0 5px #000000;
+  color: #c2c2c2;
+  font-size: 30px;
+  width: 80%;
+}
+main .cards .card article .text-i {
+  display: flex;
+  justify-content: space-between;
+}
+main .cards .card article .text-i h2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-shadow: 0 0 3px #3f3f3f, 0 0 5px #000000;
+  color: #c2c2c2;
+  margin: 0px;
+  width: 80%;
+  text-align: center;
+  font-size: 40px;
+}
+
+main .cards .card article button {
+  width: 40%;
+  text-shadow: 0 0 3px #3f3f3f, 0 0 5px #000000;
+  color: #c2c2c2;
+  border: 3px solid #696868;
+  border-radius: 9px;
+  background-color: rgba(240, 248, 255, 0);
+  font-size: 30px;
+  height: 70px;
+}
+main .card-ii {
+  padding: 30px;
+  margin-left: 100px;
+  background-color: rgba(63, 63, 63, 0.316);
+  backdrop-filter: blur(3px);
+  border: 3px solid #696868;
+  border-radius: 25px;
+  width: 20%;
+}
+main .card-ii .img-and-txt {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+main .card-ii .img-and-txt article {
+  width: 70%;
+}
+main .card-ii .img-and-txt article h2 {
+  width: 70%;
+  margin: 0px;
+  color: white;
+  font-weight: 500;
+  font-size: 25px;
+}
+main .card-ii .img-and-txt article .stars {
+  width: 100px;
+}
+main .card-ii p {
+  width: 85%;
+  color: white;
+}
+main .no-card-i {
+  margin-top: 200px;
+}
+main .no-card-i .Trendy-text {
+  display: flex;
+  justify-content: center;
+}
+main .no-card-i .maninn-txt {
+  width: 35%;
+  background-color: #c2c2c250;
+  backdrop-filter: blur(4px);
+  border-radius: 20px;
+  text-align: center;
+  padding: 14px;
+  z-index: 4;
+  font-size: 45px;
+  color: white;
+}
+
+main .no-card-i .card-i {
+  margin-top: 200px;
+
+  display: flex;
+  justify-content: center;
+}
+main .no-card-i .card-i .disine {
+  position: relative;
+  z-index: 5;
+  width: 77%;
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #c2c2c225;
+  backdrop-filter: blur(4px);
+  border-radius: 90px;
+  border: 2px solid #696868;
+}
+main .no-card-i .card-i .disine .main-imgg {
+  position: absolute;
+  left: -30px;
+  top: -350px;
+}
+main .no-card-i .card-i .disine .txts {
+  margin-left: 600px;
+  width: 40%;
+}
+main .no-card-i .card-i .disine .txts h2,
+p {
+  color: white;
+}
+
+main .no-card-i .card-i .disine .txts .big-txt {
+  font-size: 35px;
+  font-weight: 600;
+}
+main .no-card-i .card-i .disine .txts p {
+  font-size: 17px;
+}
+main .no-card-i .card-i .disine .txts .price {
+  font-size: 40px;
+  font-weight: 500;
+}
+main .no-card-i .card-i .disine .txts .btns {
+  width: 60%;
+
+  display: flex;
+  justify-content: space-around;
+}
+main .no-card-i .card-i .disine .txts .btns .butn-i {
+  width: 50%;
+  color: white;
+  font-size: 22px;
+  border: 3px solid #9f9f9f;
+  background-color: rgba(240, 248, 255, 0);
+  border-radius: 13px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+main .no-card-i .card-i .disine .txts .btns .butn-ii {
+  width: 15%;
+  color: white;
+  font-size: 22px;
+  border: 3px solid #9f9f9f;
+  background-color: rgba(240, 248, 255, 0);
+  border-radius: 13px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
